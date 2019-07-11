@@ -1,0 +1,12 @@
+[info]
+title=Formatter for Markdown Tables
+desc=Formats tables in Markdown files
+type=cudatext-plugin
+subdir=cuda_fmt_markdown_table
+homepage=https://github.com/CudaText-addons/cuda_fmt_markdown_table
+
+[fmt1]
+caption=Markdown Table Format
+method=do_format
+lexers=Markdown
+config=cuda_markdown_table_format.json
